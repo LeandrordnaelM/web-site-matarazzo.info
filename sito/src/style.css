@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #990001;
+
+
+    
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.atom {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    animation: moveAtom 2s infinite alternate;
+}
+
+@keyframes moveAtom {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(50px);
+    }
+}
