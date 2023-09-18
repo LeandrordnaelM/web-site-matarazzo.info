@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+
+}
+body {
+    font-family: 'lato';
+    background-color: #000;
+    height: 100vh;   
+}
+
+p {
+
+    color:#fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 40vh;
+    text-shadow: 0 0 10px rgba(255, 255,255, .35);
+}
+
+#campo_ricerca{
+    text-align:center
+}
+
+#bg {
+    position: absolute;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    
+}
