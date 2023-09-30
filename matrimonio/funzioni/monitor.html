@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dimensione del Monitor</title>
+</head>
+<body>
+    <h1>Dimensione del Monitor</h1>
+    <p>La dimensione del tuo monitor è:</p>
+    <p id="dimensione-monitor"></p>
+
+    <script>
+        // Funzione per ottenere la dimensione del monitor
+        function getDimensioneMonitor() {
+            var dimensione = window.screen.width + "x" + window.screen.height;
+            return dimensione;
+        }
+
+        // Aggiorna il contenuto del paragrafo con l'ID "dimensione-monitor"
+        document.getElementById("dimensione-monitor").textContent = getDimensioneMonitor();
+    </script>
+</body>
+</html>
