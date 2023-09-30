@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cornice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            text-align: right;
+            padding: 20px;
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .box {
+            width: 48%;
+            background-color: #ffffff;
+            margin-bottom: 20px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .box img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media screen and (max-width: 768px) {
+            .box {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="Logo">
+    </header>
+    <div class="container">
+        <div class="box">
+            <img src="foto1.jpg" alt="Foto 1">
+        </div>
+        <div class="box">
+            <img src="foto2.jpg" alt="Foto 2">
+        </div>
+        <div class="box">
+            <img src="foto3.jpg" alt="Foto 3">
+        </div>
+        <div class="box">
+            <img src="foto4.jpg" alt="Foto 4">
+        </div>
+    </div>
+</body>
+</html>
